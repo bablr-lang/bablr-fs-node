@@ -1,0 +1,29 @@
+{
+  "name": "@bablr/fs",
+  "description": "A Node filesystem access library using stream iterators",
+  "version": "0.0.0",
+  "author": "Conrad Buck<conartist6@gmail.com>",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@bablr/stream-iterator": "1.0.0"
+  },
+  "devDependencies": {
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#d834ccc52795d6c3b96ecc6c419960fceed221a6",
+    "enhanced-resolve": "^5.12.0",
+    "eslint": "^8.32.0",
+    "eslint-import-resolver-enhanced-resolve": "^1.0.5",
+    "eslint-plugin-import": "^2.27.5",
+    "iter-tools-es": "^7.3.1",
+    "prettier": "^2.6.2"
+  },
+  "repository": "github:bablr-lang/bablr-fs-node",
+  "homepage": "https://github.com/bablr-lang/bablr-fs-node",
+  "license": "MIT"
+}
