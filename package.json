@@ -1,6 +1,6 @@
 {
   "name": "@bablr/fs",
-  "description": "A Node filesystem access library using stream iterators",
+  "description": "A Node.js filesystem access library using stream iterators",
   "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
   "type": "module",
