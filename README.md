@@ -8,7 +8,7 @@ This package offers fast, responsive, efficient access to the filesystem. Node's
 import { readFile, readDir, decodeUTF8 } from '@bablr/fs';
 
 let fileIterable = decodeUTF8(
-  readFile(import.meta.url, 'utf8'),
+  readFile(import.meta.url),
 );
 let directoryIterable = readDir('./');
 ```
