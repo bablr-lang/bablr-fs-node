@@ -12,7 +12,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/stream-iterator": "1.0.0"
+    "@bablr/stream-iterator": "2.0.0"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#d834ccc52795d6c3b96ecc6c419960fceed221a6",
