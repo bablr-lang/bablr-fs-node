@@ -12,6 +12,7 @@
   },
   "sideEffects": false,
   "dependencies": {
+    "@bablr/stream-helpers": "1.0.0",
     "@bablr/stream-iterator": "3.0.0"
   },
   "devDependencies": {
@@ -24,8 +25,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bablr-lang/bablr-fs-node.git"
+    "url": "git+https://github.com/bablr-lang/node-bablr-fs.git"
   },
-  "homepage": "https://github.com/bablr-lang/bablr-fs-node",
+  "homepage": "https://github.com/bablr-lang/node-bablr-fs",
   "license": "MIT"
 }
